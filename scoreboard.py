@@ -11,6 +11,7 @@ class Scoreboard(Turtle):
         super().__init__()
         self.speed("fastest")
         self.score = 0
+        # to tak jak ALIGMENT
         self.color("light green")
         self.penup()
         self.goto(-10, 270)
