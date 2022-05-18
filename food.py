@@ -21,6 +21,7 @@ class Food(Turtle):
         # 
         self.refresh_food()
 
+        # zamiast refresh to lepsza chyba init bo za 1 razem nie odświeżasz tylko tworzysz
     def refresh_food(self):
         random_x = random.randint(-280, 280)
         random_y = random.randint(-280, 280)
