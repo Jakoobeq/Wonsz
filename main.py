@@ -42,7 +42,7 @@ while game:
 
     for part in snake.snake_body[1:]:
         if snake.head.distance(part) < 10:
-            game_on = False
+            game = False
             score.game_over()
 
 screen.exitonclick()
