@@ -4,7 +4,7 @@ from food import Food
 from scoreboard import Scoreboard
 import time
 
-game = True
+game_on = True
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -25,7 +25,7 @@ def inputs():
     screen.onkey(snake.right, "Right")
 
 
-while game:
+while game_on:
     inputs()
     time.sleep(0.05)
     screen.update()
